@@ -38,7 +38,7 @@ function fibonacci(n) {
 }
 
 bfib.addEventListener('click', function() {
-    var length = fib.getElementsByTagName('li').length + 1;
+    var length = fib.getElementsByTagName('li').length;
     var item = document.createElement('li');
     item.innerHTML = fibonacci(length);
     fib.appendChild(item);
